@@ -1,0 +1,153 @@
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+    }
+
+    header {
+      margin: 0;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+
+    nav {
+      margin: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(6px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #f44336;
+      letter-spacing: 1px;
+      transition: transform 0.3s ease;
+      margin-left: 1;
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #f44336;
+      transform: translateY(-2px);
+    }
+
+    .text {
+      max-width: 520px;
+      color: #ffffffc0;
+    }
+
+    footer,
+    .back a {
+      color: #f44336;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      text-decoration: underline;
+
+    }
+
+    h3,
+    h4,
+    h2 {
+      color: #f44336;
+
+    }
+
+    section>div {
+      background: #1a1a1a;
+      padding: 2px;
+      border-radius: 12px;
+      border: 2px solid #f44336;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+
+    }
+
+    footer {
+      background: #1a1a1a;
+      padding: 20px 0;
+      color: #ffffffc0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #f44336;
+      margin-bottom: 20px;
+    }
+
+    .tour-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .tour {
+      background: #1a1a1a;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    .tour h3 {
+      margin: 0 0 5px;
+      font-size: 1rem;
+      color: #f44336;
+    }
+
+    .info {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 15px;
+      font-size: 0.9rem;
+    }
+
+    .end {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 1rem;
+      color: #f44336;
+
+    }
+
+    .bb,
+    .back a {
+      color: #f44336;
+    }
