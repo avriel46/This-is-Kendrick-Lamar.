@@ -12,11 +12,11 @@ footer {
 }
 
 footer .border-bottom {
-  border-color: #f4433666 !important;
+  border-color: #f443369a !important;
 }
 
 footer .text-body-secondary {
-  color: #f4433628 !important;
+  color: #f44336a5 !important;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
@@ -211,4 +211,5 @@ h2 {
 #carouselExampleAutoplaying img {
   max-height: 300px;
   object-fit: cover;
+
 }
